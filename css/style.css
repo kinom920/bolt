@@ -1,0 +1,273 @@
+@charset "UTF-8";
+
+/* 共通のCSS */
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.contents-sp{
+  width: 1100px;
+  margin: auto;
+}
+
+
+
+/* header */
+
+
+
+.contents-head{
+  width: 100%;
+  height: 80px;
+  background-color: #FFF;
+  position: fixed;
+}
+
+.site-header{
+  width: 1100px;
+  margin:  auto;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.bolt-image{
+  font-size: 50px;
+  color: gray;
+  float: left;
+}
+
+.contact-btn{
+  font-size: 12px;
+  color: #FFF;
+  width: 50px;
+  height: 12px;
+  line-height: 12px;
+  padding: 14px 12px;
+  text-decoration: none;
+  background-color: #74cfae;
+  float: right;
+}
+
+
+
+/* title */
+
+
+
+.contents-title{
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.header-title{
+  background-color: #f2f2f2;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+  padding-top: 250px;
+}
+
+h2{
+  font-size: 30px;
+  color: #c0c0c0;
+  padding: 20px 0 250px 0;
+}
+
+
+
+/* section */
+
+
+
+.contents-section{
+  width: 100%;
+  background-color: #74cfae;
+  padding-top: 50px;
+}
+
+.section-pic{
+  display: inline-block;
+}
+
+.iphone-photo{
+  vertical-align: middle;
+}
+
+.section-text{
+  text-align: center;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.section-top-text{
+  font-size: 24px;
+  color: #FFF;
+}
+
+.section-bottom-text{
+  font-size: 20px;
+  color: #FFF;
+  margin-top: 35px;
+}
+
+
+
+/* article */
+
+
+
+.article-inner{
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.article-title{
+  font-size: 24px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.article-box{
+  font-size: 0;
+  text-align: center;
+}
+
+.photo{
+  margin:100px 0 0 100px;
+}
+
+.photo:nth-child(-n+3){
+  margin-top: 0;
+}
+
+.photo:nth-child(3n+1){
+  margin-left: 0;
+}
+
+.article-bottom-box{
+  text-align: center;
+  padding: 90px 0px 70px 0px;
+  
+}
+
+.article-bottom-text{
+  display: inline-block;
+  text-align: center;
+}
+
+.article-email-btn{
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  color: #FFF;
+  width: 70px;
+  height: 12px;
+  line-height: 12px;
+  padding: 14px 12px;
+  background-color: #74cfae;
+  text-decoration: none;
+  margin-left: 90px;
+  vertical-align: top;
+}
+
+
+
+/* section-bottom */
+
+
+
+.contents-bottom-section{
+  background-color: #4e4e4e;
+  width: 100%;
+}
+
+.section-bottom-inner{
+  
+  text-align: center;
+  padding: 70px 0 100px 0;
+}
+
+.section-title{
+  color:#FFF;
+  margin-bottom: 70px;
+}
+
+.pic{
+  display: inline-block;
+  margin-left: 180px;
+}
+
+.pic:first-child{
+  margin-left: 0;
+}
+
+.skills-text{
+  font-size: 16px;
+  color: #FFF;
+  margin-top:20px;
+}
+
+
+
+/* nav */
+
+
+
+.contents-nav{
+  background-color: #f2f2f2;
+  width: 100%; 
+}
+
+.nav-inner{
+  text-align: center;
+  padding: 200px 0 200px 0;
+  
+}
+
+.icon{
+  font-size: 50px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  width: 185px;
+  padding: 25px 0 25px 0;
+  color: #74cfae;
+}
+
+.icon:hover{
+  background-color: #FFF;
+  transition: .3s;
+}
+
+
+
+/* footer */
+
+
+
+.contents-footer{
+  width: 100%;
+  background-color: #74cfae;
+}
+
+.footer-text{
+  color: #FFF;
+  padding:20px 0 25px 0;
+  text-align: right;
+}
+
+.heart::before{
+  font-family: "Font Awesome 5 Free";
+  content: '\f004';
+  font-weight: 900;
+}
