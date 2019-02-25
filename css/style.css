@@ -112,12 +112,13 @@ h2{
 .section-top-text{
   font-size: 24px;
   color: #FFF;
+  margin-bottom: 35px; 
 }
 
 .section-bottom-text{
   font-size: 20px;
   color: #FFF;
-  margin-top: 35px;
+  line-height: 25px;
 }
 
 
@@ -193,7 +194,6 @@ h2{
 }
 
 .section-bottom-inner{
-  
   text-align: center;
   padding: 70px 0 100px 0;
 }
