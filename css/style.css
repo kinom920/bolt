@@ -36,7 +36,7 @@
   float: left;
 }
 
-.contect-btn{
+.contact-btn{
   font-size: 12px;
   color: #FFF;
   width: 50px;
@@ -49,7 +49,7 @@
   transition: .3s;
 }
 
-.contect-btn:hover{
+.contact-btn:hover{
   color: #333;
   transition: .3s;
 }
@@ -71,11 +71,13 @@ h1{
   font-weight: 700;
   color: #74cfae;
   margin-bottom:20px;
+  font-family: "Raleway";
 }
 
 .free-text{
   font-size: 30px;
   color: #c0c0c0;
+  font-family: "Raleway";
 }
 
 
@@ -90,7 +92,7 @@ h1{
 }
 
 .section-pic{
-  float:left;
+   float:left;
 }
 
 .iphone-photo{
@@ -134,6 +136,7 @@ h1{
   font-size: 24px;
   text-align: center;  
   margin-bottom: 40px;
+  font-family: "Raleway";
 }
 
 .article-box{
@@ -157,13 +160,14 @@ h1{
 .article-bottom-box{
   text-align: center;
   margin-top: 90px;
-  
 }
+
 
 .article-bottom-text{
   width: 530px;
   display: inline-block;
   text-align: center;
+  font-family: "Raleway";
 }
 
 .article-email-btn{
@@ -215,6 +219,7 @@ h1{
 .section-title{
   color:#FFF;
   margin-bottom: 70px;
+  font-family: "Raleway";
 }
 
 .pic{
@@ -230,6 +235,7 @@ h1{
   font-size: 16px;
   color: #FFF;
   margin-top:20px;
+  font-family: "Raleway";
 }
 
 
@@ -277,6 +283,7 @@ h1{
 .footer-text{
   color: #FFF;
   text-align: right;
+  font-family: "Raleway";
 }
 
 .heart::before{
@@ -284,3 +291,190 @@ h1{
   content: '\f004';
   font-weight: 900;
 }
+
+
+
+
+
+/* @media screen and (max-width:1200px){
+pc
+
+} */
+
+
+
+@media screen and (min-width:767px) and (max-width:1199px){
+/*tab*/
+
+/* 共通のクラス */
+  .contents-inner{
+    width:97%;
+  }
+
+  /* section */
+  .section-pic{
+    text-align: center;
+    float: none;
+  }
+  .section-top-text{
+    margin:20px 0 35px 0;
+  }
+  .contents-section{
+    padding: 50px 0 25px 0;
+  }
+
+  .section-text{
+    width: auto;
+  }
+
+  .section-bottom-text{
+    font-size: 21px;
+  }
+
+  /* article */
+
+  .image-box{
+    margin:0 0 0 0;
+    display:block;
+  }
+
+  .image-box:nth-child(3){
+    margin-bottom: 80px;
+  }
+
+  .article-bottom-box{
+    margin-top: 80px;
+  }
+
+  .article-bottom-text{
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+    font-size: 13px;
+  }
+
+  .article-email-btn{
+    margin-left: 0;
+  }
+
+  /* our skill */
+
+  .pic{
+    display: block;
+    margin-left: 0;
+    margin-bottom: 88px;
+  }
+
+  .pic:last-child{
+    margin-bottom: 0;
+  }
+
+
+  /* nav */
+
+
+  .icon{
+    width: 150px;
+  }
+
+
+
+}
+
+
+@media screen and (max-width:767px){
+  /*sp*/
+  
+  /* 共通のクラス */
+  .contents-inner{
+    width:97%;
+  }
+  
+  /* title */
+  .contents-title {
+    padding: 160px 0 130px 0;
+  }
+
+  .contact-none{
+    display: none;
+  }
+
+  .sns-border-box{
+    border:1px solid #ddd;
+    width: 40px;
+    height: 25px;
+    padding: 10px;
+    border-radius:4px;
+    text-align: -webkit-center; 
+    float:right;
+  }
+
+  .sns-border-line{
+    width:30px;
+    border:2px solid #ddd;
+    margin-bottom: 6px;
+  }
+
+
+
+  /* section */
+  .section-text {
+    width: auto;
+  }
+  .section-bottom-text {
+    font-size: 19px;
+  }
+  .section-pic {
+    text-align: center;
+    float: none;
+    margin-bottom: 15px;
+  }
+  .contents-section {
+    padding: 50px 0 20px 0;
+  }
+
+  /* article */
+
+  .image-box {
+    margin:0;
+    display: block
+  }
+  
+  .image-box:nth-child(3){
+    margin-bottom: 80px;
+  }
+
+  .article-bottom-text{
+    width:auto;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .article-email-btn{
+    margin:0;
+  }
+
+  /* section-bottom */
+
+  .pic{
+    display: block;
+    margin-left: 0;
+    margin-bottom: 88px;
+  }
+
+  .pic:last-child{
+    margin-bottom: 0;
+  }
+
+  /* sns */
+
+  .icon{
+    width: 97%;
+  }
+
+  .nav-inner {
+    padding: 50px 0 50px 0;
+}
+
+  }
