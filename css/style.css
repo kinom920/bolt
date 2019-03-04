@@ -15,6 +15,8 @@
 
 
 
+
+
 /* header */
 
 
@@ -219,6 +221,7 @@ h1{
 .section-title{
   color:#FFF;
   margin-bottom: 70px;
+  font-size: 24px;
   font-family: "Raleway";
 }
 
@@ -229,6 +232,10 @@ h1{
 
 .pic:first-child{
   margin-left: 0;
+}
+
+.pic-link{
+  display:inline-block;
 }
 
 .skills-text{
@@ -311,13 +318,21 @@ pc
     width:97%;
   }
 
+  main{
+    padding-top:82px; 
+  }
+
   /* section */
   .section-pic{
     text-align: center;
     float: none;
   }
+  .section-text{
+    margin-top:20px;
+  }
+
   .section-top-text{
-    margin:20px 0 35px 0;
+    margin-bottom:35px;
   }
   .contents-section{
     padding: 50px 0 25px 0;
@@ -388,6 +403,10 @@ pc
   /* 共通のクラス */
   .contents-inner{
     width:97%;
+  }
+
+  main{
+    padding-top:82px; 
   }
   
   /* title */
